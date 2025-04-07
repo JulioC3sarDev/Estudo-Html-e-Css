@@ -1,0 +1,37 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+div{
+
+    background: #111;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 5px;
+    
+}
+h2{
+    color: #fff;
+    font-size: medium;
+    margin: 0;
+}
+span{
+    color: #febe01;
+}
+p{
+    color: #b2b2b2;
+    font-size: small;
+}
+a{
+    background: #febe01;
+    color: #332200;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:7px; 
+    display: inline-block;  
+    font-size: small;
+}
