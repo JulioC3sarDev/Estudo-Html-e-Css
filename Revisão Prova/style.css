@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     padding: 0;
-    max-width: 1000px;
+    max-width: 62.5rem;
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,9 +13,9 @@ body{
 
 .menu{
     position: fixed;
-    width: 170px;
-    height: 560px;
-    border:  2px solid black;
+    width: 10.625rem;
+    height: 35rem;
+    border:  0.125rem solid black;
     background-color: #ffffff;
 }
 
@@ -25,24 +25,24 @@ body{
 
 .menu > img{
     display: flex;
-    padding: 5px 0px 5px 0px;
-    width: 150px;
-    border-radius: 10px;
+    padding: 0.313rem 0rem 0.313rem 0rem;
+    width: 9.375rem;
+    border-radius: 0.625rem;
     justify-self: center;
 
 }
 #menu_tipo{
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     color: black;
     align-items: center;
     transition: 0.3s ease-in-out;
 }
 
 #menu_tipo > img{
-    width: 20px;
-    padding: 0px 0px 0px 10px;
+    width: 1.25rem;
+    padding: 0rem 0rem 0rem 0.625rem ;
     align-content: center;
 }
 
@@ -54,25 +54,25 @@ body{
     display: flex;
     flex-direction: column;
     justify-self:center;
-    gap: 30px;
-    width: 620px;
-    height: 300px;
+    gap: 1.875rem;
+    width: 38.75rem;
+    height: 18.75rem;
     color: black;
     
 }
 
 #anuncios_p {
     display: flex;
-    border: 2px solid #000000;
-    border-radius: 20px;
-    padding: 16px;
+    border: 0.125rem solid #000000;
+    border-radius: 1.25rem;
+    padding: 1rem;
     background-color: #ffffff;
-    max-width: 700px;
-    height: 200px;
+    max-width: 43.75rem;
+    height: 12.5rem;
 }
 
 #anuncios_p:hover{
-    border: 3px solid #970202;
+    border: 0.188rem solid #970202;
 }
 
 #anuncios_p:active{
@@ -82,21 +82,21 @@ body{
  
   
 #anuncios_p img {
-    width: 300px;
+    width: 18.75rem;
     object-fit: cover;
-    border-radius: 10px;
-    margin-right: 16px;
+    border-radius: 0.625rem;
+    margin-right: 1rem;
 }
   
 .selo {
     position: absolute;
-    top: 105px;
-    left: 670px;
+    top: 6.563rem;
+    left: 41.875rem;
     background-color: #ffffffa6;
-    border: 1px solid #e0c370;
-    border-radius: 5px;
-    padding: 4px;
-    font-size: 11px;
+    border: 0.063rem solid #e0c370;
+    border-radius: 0.313rem;
+    padding: 0.25rem;
+    font-size: 0.688rem;
     font-weight: bold;
 }
   
@@ -105,17 +105,17 @@ body{
 }
   
 .anuncio_spc h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
   
 .anuncio_spc p {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
   
 .local h3 {
-    font-size: 12px;
+    font-size: 0.75rem;
     position: relative;
-    top: 103px;
+    top: 6.438rem;
 }
   
 .preco {
@@ -125,21 +125,22 @@ body{
 }
   
 .preco h5 {
-    font-size: 12px;
     color: gray;
     text-decoration: line-through;
 }
   
 .preco h4 {
-    font-size: 16px;
+    position: relative;
+    top: -0.37rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     color: white;
     background-color: black;
-    font-size: 15px
+    font-size: 0.938rem;
 }
